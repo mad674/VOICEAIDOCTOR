@@ -1,0 +1,10 @@
+aVOICEPIPELINE/.env
+VOICEPIPELINE/.venv/
+VOICEPIPELINE/__pycache__/
+VOICEPIPELINE/src/**/__pycache__/
+VOICEPIPELINE/tests/__pycache__/
+VOICEPIPELINE/data/
+frontend/node_modules/
+frontend/dist/
+/package-lock.json
+VIDEOAIDOCTOR.mp4

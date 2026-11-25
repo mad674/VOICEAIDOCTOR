@@ -3,6 +3,12 @@
 A browser-based appointment assistant built with React, FastAPI, Pipecat, SQLite, ElevenLabs speech services, and Groq. The dashboard and voice tools share the same database.
 The dashboard uses an original VoiceAIDoctor SVG logo and favicon.
 
+## Project Demo
+
+Watch the application demo:
+
+[![Voice AI Doctor Demo](https://img.youtube.com/vi/AWJJMI-ogv0/0.jpg)](https://www.youtube.com/watch?v=AWJJMI-ogv0)
+
 ## Run locally
 
 1. Install Python 3.11+ and Node.js 20+.
