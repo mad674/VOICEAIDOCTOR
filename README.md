@@ -5,7 +5,7 @@ The dashboard uses an original VoiceAIDoctor SVG logo and favicon.
 
 ## Project Demo
 
-Watch the application demo:
+Watch the application demo: https://www.youtube.com/watch?v=AWJJMI-ogv0
 
 [![Voice AI Doctor Demo](https://img.youtube.com/vi/AWJJMI-ogv0/0.jpg)](https://www.youtube.com/watch?v=AWJJMI-ogv0)
 
