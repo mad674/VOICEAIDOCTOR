@@ -1,0 +1,22 @@
+[project]
+name = "voiceaidoctor"
+version = "0.1.0"
+description = "VoiceAIDoctor appointment assistant and dashboard"
+readme = "README.md"
+authors = [
+    { name = "mad674", email = "madhavmeruva690@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "pipecat-ai[elevenlabs,groq,silero,webrtc]>=1.17,<2",
+    "python-dotenv>=1.0",
+    "uvicorn>=0.32",
+]
+
+[project.scripts]
+voiceaidoctor = "voicepipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
