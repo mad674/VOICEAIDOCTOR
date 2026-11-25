@@ -25,6 +25,7 @@ Watch the application demo:
    Add `GROQ_API_KEY`, `ELEVENLABS_API_KEY`, and `ELEVENLABS_VOICE_ID` to `VOICEPIPELINE\.env`, then start the API:
 
    ```powershell
+   cd voicepipeline
    uvicorn voicepipeline.api:app --reload --app-dir src --port 8001
    ```
 
