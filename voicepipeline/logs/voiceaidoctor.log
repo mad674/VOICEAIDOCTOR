@@ -1,0 +1,144 @@
+2026-11-24 21:02:47,228 INFO httpx2: HTTP Request: POST http://testserver/api/doctors "HTTP/1.1 422 Unprocessable Content"
+2026-11-24 21:02:47,298 INFO httpx2: HTTP Request: GET http://testserver/api/doctors "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,314 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/d2/slots "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,330 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,354 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/d2/slots "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,373 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,380 INFO httpx2: HTTP Request: POST http://testserver/api/appointments/cancel "HTTP/1.1 409 Conflict"
+2026-11-24 21:02:47,395 INFO httpx2: HTTP Request: GET http://testserver/api/appointments "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,474 INFO httpx2: HTTP Request: POST http://testserver/api/doctors "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,491 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/9049df8567ef4478969c99b732265471/slots "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,506 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,523 INFO httpx2: HTTP Request: GET http://testserver/api/dashboard "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,538 INFO httpx2: HTTP Request: POST http://testserver/api/appointments/cancel "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,599 INFO httpx2: HTTP Request: GET http://testserver/api/doctors "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,608 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 400 Bad Request"
+2026-11-24 21:02:47,624 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:02:47,629 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 409 Conflict"
+2026-11-24 21:02:47,691 INFO httpx2: HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,753 INFO httpx2: HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-24 21:02:47,894 INFO voicepipeline.bot: Checking doctor availability for dr. aarav patel
+2026-11-24 21:02:47,967 INFO voicepipeline.bot: Checking doctor availability for dr. maya sharma
+2026-11-24 21:02:48,040 INFO voicepipeline.bot: Checking doctor availability for jamie chen
+2026-11-24 21:02:48,106 WARNING voicepipeline.bot: Booking declined because caller phone confirmation was not provided
+2026-11-24 21:02:48,126 INFO voicepipeline.bot: Appointment 49efdb9470c64299bc19fd3fa3ceac32 was booked for doctor d2
+2026-11-24 21:02:48,126 WARNING voicepipeline.bot: Cancellation declined because caller phone confirmation was not provided
+2026-11-24 21:02:48,140 INFO voicepipeline.bot: Appointment 49efdb9470c64299bc19fd3fa3ceac32 was cancelled
+2026-11-24 21:02:48,246 INFO voicepipeline.bot: Appointment c1554f7ed2974e02943e13b859556b3d was cancelled
+2026-11-24 21:02:48,357 INFO voicepipeline.bot: Checking doctor availability for no such doctor
+2026-11-24 21:02:48,361 WARNING voicepipeline.bot: Availability check could not find a matching doctor
+2026-11-24 21:02:48,859 INFO voicepipeline.voice_sessions: Starting voice pipeline session session-1
+2026-11-24 21:02:48,872 INFO voicepipeline.voice_sessions: Voice pipeline session session-1 finished
+2026-11-24 21:02:48,898 INFO voicepipeline.voice_sessions: Starting voice pipeline session session-2
+2026-11-24 21:02:48,913 INFO voicepipeline.voice_sessions: Voice pipeline session session-2 was cancelled
+2026-11-24 21:16:16,236 INFO httpx2: HTTP Request: POST http://testserver/api/doctors "HTTP/1.1 422 Unprocessable Content"
+2026-11-24 21:16:16,315 INFO httpx2: HTTP Request: GET http://testserver/api/doctors "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,327 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/d2/slots "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,360 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,379 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/d2/slots "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,399 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,403 INFO httpx2: HTTP Request: POST http://testserver/api/appointments/cancel "HTTP/1.1 409 Conflict"
+2026-11-24 21:16:16,425 INFO httpx2: HTTP Request: GET http://testserver/api/appointments "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,504 INFO httpx2: HTTP Request: POST http://testserver/api/doctors "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,520 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/dc2b3f559d6040a7bd9f23911c8c1481/slots "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,544 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,561 INFO httpx2: HTTP Request: GET http://testserver/api/dashboard "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,577 INFO httpx2: HTTP Request: POST http://testserver/api/appointments/cancel "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,639 INFO httpx2: HTTP Request: GET http://testserver/api/doctors "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,655 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 400 Bad Request"
+2026-11-24 21:16:16,677 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:16,686 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 409 Conflict"
+2026-11-24 21:16:16,758 INFO httpx2: HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,821 INFO httpx2: HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-24 21:16:16,971 INFO voicepipeline.bot: Checking doctor availability for dr. aarav patel
+2026-11-24 21:16:17,033 INFO voicepipeline.bot: Checking doctor availability for dr. maya sharma
+2026-11-24 21:16:17,135 INFO voicepipeline.bot: Checking doctor availability for jamie chen
+2026-11-24 21:16:17,299 WARNING voicepipeline.bot: Booking declined because caller phone confirmation was not provided
+2026-11-24 21:16:17,319 INFO voicepipeline.bot: Appointment 88d10dc23abf4818b756dd2c0c05e79b was booked for doctor d2
+2026-11-24 21:16:17,321 WARNING voicepipeline.bot: Cancellation declined because caller phone confirmation was not provided
+2026-11-24 21:16:17,337 INFO voicepipeline.bot: Appointment 88d10dc23abf4818b756dd2c0c05e79b was cancelled
+2026-11-24 21:16:17,459 INFO voicepipeline.bot: Appointment d7551671c1c64185af9ab158fb616658 was cancelled
+2026-11-24 21:16:17,576 INFO voicepipeline.bot: Checking doctor availability for no such doctor
+2026-11-24 21:16:17,582 WARNING voicepipeline.bot: Availability check could not find a matching doctor
+2026-11-24 21:16:18,121 INFO voicepipeline.voice_sessions: Starting voice pipeline session session-1
+2026-11-24 21:16:18,121 INFO voicepipeline.voice_sessions: Voice pipeline session session-1 finished
+2026-11-24 21:16:18,153 INFO voicepipeline.voice_sessions: Starting voice pipeline session session-2
+2026-11-24 21:16:18,170 INFO voicepipeline.voice_sessions: Voice pipeline session session-2 was cancelled
+2026-11-24 21:16:57,408 INFO httpx2: HTTP Request: POST http://testserver/api/doctors "HTTP/1.1 422 Unprocessable Content"
+2026-11-24 21:16:57,443 INFO httpx2: HTTP Request: GET http://testserver/api/doctors "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,462 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/d2/slots "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,473 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,483 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/d2/slots "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,491 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,499 INFO httpx2: HTTP Request: POST http://testserver/api/appointments/cancel "HTTP/1.1 409 Conflict"
+2026-11-24 21:16:57,509 INFO httpx2: HTTP Request: GET http://testserver/api/appointments "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,548 INFO httpx2: HTTP Request: POST http://testserver/api/doctors "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,560 INFO httpx2: HTTP Request: POST http://testserver/api/doctors/09b3e90f6f4247f99048786f2ff7dc64/slots "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,573 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,575 INFO httpx2: HTTP Request: GET http://testserver/api/dashboard "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,592 INFO httpx2: HTTP Request: POST http://testserver/api/appointments/cancel "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,629 INFO httpx2: HTTP Request: GET http://testserver/api/doctors "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,634 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 400 Bad Request"
+2026-11-24 21:16:57,643 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 201 Created"
+2026-11-24 21:16:57,649 INFO httpx2: HTTP Request: POST http://testserver/api/appointments "HTTP/1.1 409 Conflict"
+2026-11-24 21:16:57,683 INFO httpx2: HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,722 INFO httpx2: HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-24 21:16:57,799 INFO voicepipeline.bot: Checking doctor availability for dr. aarav patel
+2026-11-24 21:16:57,837 INFO voicepipeline.bot: Checking doctor availability for dr. maya sharma
+2026-11-24 21:16:57,884 INFO voicepipeline.bot: Checking doctor availability for jamie chen
+2026-11-24 21:16:57,944 INFO voicepipeline.bot: Appointment 65bb701dc40d403da3fde3c794479f8f was booked for doctor d2
+2026-11-24 21:16:57,959 INFO voicepipeline.bot: Appointment 65bb701dc40d403da3fde3c794479f8f was cancelled
+2026-11-24 21:16:57,996 WARNING voicepipeline.bot: Booking declined because caller phone confirmation was not provided
+2026-11-24 21:16:58,010 INFO voicepipeline.bot: Appointment bd0a0ee3e88c4ac882eeb9dc80dc8122 was booked for doctor d2
+2026-11-24 21:16:58,010 WARNING voicepipeline.bot: Cancellation declined because caller phone confirmation was not provided
+2026-11-24 21:16:58,020 INFO voicepipeline.bot: Appointment bd0a0ee3e88c4ac882eeb9dc80dc8122 was cancelled
+2026-11-24 21:16:58,087 INFO voicepipeline.bot: Appointment 96ced0cdd70a43728a7004908d8fa216 was cancelled
+2026-11-24 21:16:58,143 INFO voicepipeline.bot: Checking doctor availability for no such doctor
+2026-11-24 21:16:58,147 WARNING voicepipeline.bot: Availability check could not find a matching doctor
+2026-11-24 21:16:58,424 INFO voicepipeline.voice_sessions: Starting voice pipeline session session-1
+2026-11-24 21:16:58,428 INFO voicepipeline.voice_sessions: Voice pipeline session session-1 finished
+2026-11-24 21:16:58,437 INFO voicepipeline.voice_sessions: Starting voice pipeline session session-2
+2026-11-24 21:16:58,442 INFO voicepipeline.voice_sessions: Voice pipeline session session-2 was cancelled
+2026-11-25 11:40:43,260 INFO aioice.ice: Connection(0) Could not bind to 169.254.19.118 - [WinError 10049] The requested address is not valid in its context
+2026-11-25 11:40:43,279 INFO aioice.ice: Connection(0) Could not bind to 169.254.78.0 - [WinError 10049] The requested address is not valid in its context
+2026-11-25 11:40:58,777 INFO voicepipeline.voice_sessions: Starting voice pipeline session SmallWebRTCConnection#0-92fea212c5a44cc88f2bb58dbf64e702
+2026-11-25 11:40:58,785 INFO voicepipeline.api: WebRTC offer accepted for voice session SmallWebRTCConnection#0-92fea212c5a44cc88f2bb58dbf64e702
+2026-11-25 11:40:58,792 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:52ac:1006:976b:a8f5', 60502) -> ('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 49667)) State.FROZEN -> State.WAITING
+2026-11-25 11:40:58,804 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 60503) -> ('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 49667)) State.FROZEN -> State.WAITING
+2026-11-25 11:40:58,812 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:52ac:1006:976b:a8f5', 60502) -> ('2405:201:c03b:f021:52ac:1006:976b:a8f5', 49668)) State.FROZEN -> State.WAITING
+2026-11-25 11:40:58,820 INFO aioice.ice: Connection(0) Check CandidatePair(('192.168.29.104', 60504) -> ('192.168.29.104', 49666)) State.FROZEN -> State.WAITING
+2026-11-25 11:40:58,824 INFO voicepipeline.bot: Building voice pipeline for session SmallWebRTCConnection#0-92fea212c5a44cc88f2bb58dbf64e702
+2026-11-25 11:41:01,140 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:52ac:1006:976b:a8f5', 60502) -> ('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 49667)) State.WAITING -> State.IN_PROGRESS
+2026-11-25 11:41:01,154 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 60503) -> ('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 49667)) State.WAITING -> State.IN_PROGRESS
+2026-11-25 11:41:01,167 INFO aioice.ice: Connection(0) Check CandidatePair(('192.168.29.104', 60504) -> ('192.168.29.104', 49666)) State.WAITING -> State.IN_PROGRESS
+2026-11-25 11:41:01,176 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 60503) -> ('2405:201:c03b:f021:52ac:1006:976b:a8f5', 49668)) State.FROZEN -> State.WAITING
+2026-11-25 11:41:01,188 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:52ac:1006:976b:a8f5', 60502) -> ('2405:201:c03b:f021:52ac:1006:976b:a8f5', 49668)) State.WAITING -> State.IN_PROGRESS
+2026-11-25 11:41:01,194 INFO aioice.ice: Connection(0) Check CandidatePair(('2405:201:c03b:f021:54fa:4f6:9a16:6ba6', 60503) -> ('2405:201:c03b:f021:52ac:1006:976b:a8f5', 49668)) State.WAITING -> State.IN_PROGRESS
+2026-11-25 11:41:01,225 INFO aioice.ice: Connection(0) Check CandidatePair(('192.168.29.104', 60504) -> ('49.43.234.221', 18754)) State.FROZEN -> State.IN_PROGRESS
+2026-11-25 11:41:01,288 INFO aioice.ice: Connection(0) Check CandidatePair(('192.168.29.104', 60504) -> ('192.168.29.104', 49666)) State.IN_PROGRESS -> State.SUCCEEDED
+2026-11-25 11:41:01,292 INFO aioice.ice: Connection(0) ICE completed
+2026-11-25 11:41:02,824 INFO voicepipeline.bot: Voice pipeline session SmallWebRTCConnection#0-92fea212c5a44cc88f2bb58dbf64e702 is ready
+2026-11-25 11:41:18,267 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:41:30,304 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:41:39,880 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:41:54,054 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:18,410 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:19,134 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:19,233 INFO voicepipeline.bot: Checking doctor availability for kieran
+2026-11-25 11:42:19,258 WARNING voicepipeline.bot: Availability check could not find a matching doctor
+2026-11-25 11:42:21,343 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:39,193 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:49,722 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:55,836 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:42:55,987 INFO voicepipeline.bot: Checking doctor availability for dr kiran
+2026-11-25 11:43:01,517 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:43:07,215 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:43:07,482 INFO voicepipeline.bot: Appointment 8c1478b7a2ce4f7a9ad73271db9301b5 was booked for doctor 06db5a3d71994aa59608fb2da1427b9d
+2026-11-25 11:43:07,903 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:43:08,199 WARNING voicepipeline.bot: Booking failed for doctor 06db5a3d71994aa59608fb2da1427b9d and slot c1b7cd17abb54a6b937b7df22a5c2703: That appointment slot has already been booked.
+2026-11-25 11:43:08,567 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:43:10,133 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:43:30,493 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:43:43,857 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 11:48:50,998 INFO voicepipeline.bot: Voice pipeline session SmallWebRTCConnection#0-92fea212c5a44cc88f2bb58dbf64e702 has finished
+2026-11-25 11:48:51,053 INFO voicepipeline.voice_sessions: Voice pipeline session SmallWebRTCConnection#0-92fea212c5a44cc88f2bb58dbf64e702 finished
